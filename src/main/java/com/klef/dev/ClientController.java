@@ -16,5 +16,9 @@ public String demo() {
 public String test() {
 	return "Spring Boot Test";
 }
+@GetMapping("/home")
+public String home() {
+	return "Spring Boot Home";
+}
 
 }
